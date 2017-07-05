@@ -18,12 +18,12 @@ namespace LCEHammingDistance
             if (binaryX.Length != binaryY.Length) {
                 if (binaryX.Length > binaryY.Length) {
                     while (binaryX.Length != binaryY.Length) {
-                        binaryY.Insert(0, "0");
+                        binaryY=binaryY.Insert(0, "0");
                     }
                 } else {
                     while (binaryX.Length != binaryY.Length)
                     {
-                        binaryX.Insert(0, "0");
+                        binaryX=binaryX.Insert(0, "0");
                     }
                 }
             }
